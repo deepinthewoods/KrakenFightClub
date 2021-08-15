@@ -36,7 +36,7 @@ crToXP.set("24", 62000)
 crToXP.set("30", 155000)
 
 
-const monsterTable = (props) => {
+const MonsterTable = (props) => {
     console.log("draw monster table")
     const [rows, setRows] = React.useState([])
     const [byCR, setByCR] = React.useState([])
@@ -225,4 +225,4 @@ const monsterTable = (props) => {
     
 }
 
-export default monsterTable;
+export default MonsterTable;

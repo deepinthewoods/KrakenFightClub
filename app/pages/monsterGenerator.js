@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import MonsterTable from './monsterTable'
 
-const monsterGenerator = (props) => {
+const MonsterGenerator = (props) => {
     
     const [compensate, setCompensate] = React.useState( true)
     const [seed, setSeed] = React.useState(111)
@@ -55,4 +55,4 @@ const monsterGenerator = (props) => {
 
 }
 
-export default monsterGenerator;
+export default MonsterGenerator;
