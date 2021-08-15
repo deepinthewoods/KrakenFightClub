@@ -26,11 +26,14 @@
   "dependencies": {
     "@prisma/client": "2.x",
     "blitz": "0.39.0",
-    "react-dom": "alpha",
-    "react": "alpha",
-    "zod": "3.x",
     "final-form": "4.20.2",
-    "react-final-form": "6.5.3"
+    "random-seed": "0.3.0",
+    "react": "alpha",
+    "react-dom": "alpha",
+    "react-final-form": "6.5.3",
+    "react-papaparse": "3.17.1",
+    "react-pdf": "5.3.2",
+    "zod": "3.x"
   },
   "devDependencies": {
     "@types/preview-email": "2.0.1",
@@ -38,8 +41,8 @@
     "eslint": "7.x",
     "husky": "6.x",
     "lint-staged": "10.x",
-    "prettier-plugin-prisma": "0.15.0",
     "prettier": "2.3.2",
+    "prettier-plugin-prisma": "0.15.0",
     "pretty-quick": "3.1.1",
     "preview-email": "3.0.4",
     "prisma": "2.x",
